@@ -34,7 +34,7 @@ export default function Header() {
     <>
       <header className={`sticky top-0 z-50 border-b uppercase tracking-wider flex justify-between items-center py-4 px-5 md:py-5 md:px-10 transition-all duration-300 ${isScrolled || isMobileMenuOpen ? 'bg-light border-medium shadow-sm' : 'bg-dark border-gold-light/30'}`}>
         <div id="logo-title" className="z-50">
-          <h1 className={`capitalize text-lg md:text-xl transition-colors duration-300 ${isScrolled || isMobileMenuOpen ? 'text-dark' : 'text-light'}`}>peralta & asociados</h1>
+          <h1 className={`capitalize text-lg md:text-xl transition-colors duration-300 ${isScrolled || isMobileMenuOpen ? 'text-dark' : 'text-light'}`}>peralta <span className={`text-gold-light font-bold ${isScrolled || isMobileMenuOpen ? 'text-gold' : 'text-gold-light'}`}>&</span> asociados</h1>
           <p className="text-[10px] md:text-xs text-gold-light">abogados consultores</p>
         </div>
 
