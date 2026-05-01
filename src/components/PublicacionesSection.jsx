@@ -64,7 +64,7 @@ export default function PublicacionesSection() {
                                     {pub.title}
                                 </h3>
                                 
-                                <p className="text-gray-500 font-light leading-relaxed mt-2 line-clamp-4">
+                                <p className="text-medium font-light leading-relaxed mt-2 line-clamp-4">
                                     {pub.excerpt}
                                 </p>
                             </div>
@@ -72,7 +72,7 @@ export default function PublicacionesSection() {
                             <div className="flex justify-between items-end border-t border-medium/20 pt-6 mt-8">
                                 <div className="flex flex-col gap-1">
                                     <span className="text-sm font-semibold text-dark">{pub.author}</span>
-                                    <span className="text-xs font-light text-gray-400">{pub.date}</span>
+                                    <span className="text-xs font-light text-medium/70">{pub.date}</span>
                                 </div>
                                 <span className="uppercase text-xs tracking-widest text-dark group-hover:text-gold font-semibold transition-colors duration-300 flex items-center gap-2">
                                     Leer <ArrowRightIcon className="w-3 h-3 group-hover:translate-x-1 transition-transform duration-300" />
