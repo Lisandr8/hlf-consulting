@@ -20,14 +20,14 @@ export default function Hero() {
                     Firma de abogados de élite comprometida con proteger sus intereses con precisión, integridad y conocimiento profundo del ordenamiento jurídico dominicano.
                 </p>
 
-                {/* <div className="flex flex-col sm:flex-row gap-6 w-full sm:w-auto mt-8">
-                    <button className="uppercase tracking-widest text-xs px-10 py-4 rounded-sm transition-all duration-300 bg-gold text-light hover:bg-gold-light w-full sm:w-auto shadow-lg hover:shadow-gold/20 hover:-translate-y-1">
+                <div className="flex flex-col sm:flex-row gap-6 w-full sm:w-auto mt-8"> 
+                    {/* <button className="uppercase tracking-widest text-xs px-10 py-4 rounded-sm transition-all duration-300 bg-gold text-light hover:bg-gold-light w-full sm:w-auto shadow-lg hover:shadow-gold/20 hover:-translate-y-1">
                         agendar consulta
-                    </button>
-                    <button className="uppercase tracking-widest text-xs px-10 py-4 rounded-sm transition-all duration-300 bg-transparent border border-medium/50 text-light hover:bg-light hover:text-dark hover:border-light w-full sm:w-auto hover:-translate-y-1">
+                    </button> */}
+                    <a href="#areas" className="uppercase tracking-widest text-xs px-10 py-4 rounded-sm transition-all duration-300 bg-transparent border border-medium/50 text-light hover:bg-light hover:text-dark hover:border-light w-full sm:w-auto hover:-translate-y-1">
                         áreas de práctica
-                    </button>
-                </div> */}
+                    </a>
+                </div>
             </div>
 
             {/* ------------------ Stats Section ------------------ */}
