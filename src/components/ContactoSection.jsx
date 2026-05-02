@@ -37,8 +37,8 @@ export default function ContactoSection() {
     return (
         <section id="contacto" className="py-24 md:py-32 relative overflow-hidden bg-light">
             {/* Background decorative elements */}
-            <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-medium/10 to-transparent"></div>
-            <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-gold/5 to-transparent"></div>
+            <div className="absolute top-0 right-0 w-1/3 h-full bg-linear-to-l from-medium/10 to-transparent"></div>
+            <div className="absolute bottom-0 left-0 w-full h-1/2 bg-linear-to-t from-gold/5 to-transparent"></div>
 
             <div className="max-w-7xl mx-auto px-5 md:px-10 relative z-10">
 
@@ -98,7 +98,7 @@ export default function ContactoSection() {
                                 </div>
                                 <div className="flex flex-col gap-1 pt-1.5">
                                     <span className="font-semibold text-white tracking-wide text-sm uppercase">Correo Electrónico</span>
-                                    <span className="text-medium font-light leading-relaxed">info@peraltaasociados.do<br />consultas@peraltaasociados.do</span>
+                                    <span className="text-medium font-light leading-relaxed">legal@nimbralaw.com</span>
                                 </div>
                             </div>
 
@@ -108,7 +108,7 @@ export default function ContactoSection() {
                                 </div>
                                 <div className="flex flex-col gap-1 pt-1.5">
                                     <span className="font-semibold text-white tracking-wide text-sm uppercase">Horario</span>
-                                    <span className="text-medium font-light leading-relaxed">Lun–Vie: 8:00 AM – 6:00 PM<br />Sábados: 9:00 AM – 1:00 PM</span>
+                                    <span className="text-medium font-light leading-relaxed">Atención exclusivamente por cita.<br />Agenda tu consulta y te confirmamos disponibilidad.</span>
                                 </div>
                             </div>
                         </div>
@@ -179,14 +179,14 @@ export default function ContactoSection() {
                                 </button>
 
                                 {status === "success" && (
-                                    <div className="text-sm font-medium text-green-700 bg-green-50/50 px-5 py-4 border-l-4 border-green-500 flex items-start gap-3 mt-4">
+                                    <div className="text-sm font-medium text-green-700 bg-light px-5 py-4 border-l-4 border-green-500 flex items-start gap-3 mt-4">
                                         <CheckCircleIcon className="w-6 h-6 text-green-600 shrink-0" />
                                         <p>¡Gracias! Hemos recibido su mensaje. Nuestro equipo legal se pondrá en contacto con usted en breve.</p>
                                     </div>
                                 )}
 
                                 {status === "error" && (
-                                    <div className="text-sm font-medium text-red-700 bg-red-50/50 px-5 py-4 border-l-4 border-red-500 flex items-start gap-3 mt-4">
+                                    <div className="text-sm font-medium text-red-700 bg-light px-5 py-4 border-l-4 border-red-500 flex items-start gap-3 mt-4">
                                         <ExclamationCircleIcon className="w-6 h-6 text-red-600 shrink-0" />
                                         <p>Lo sentimos, hubo un problema al enviar su mensaje. Por favor, intente nuevamente o llámenos directamente.</p>
                                     </div>

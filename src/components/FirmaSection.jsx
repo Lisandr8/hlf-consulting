@@ -28,10 +28,10 @@ export default function FirmaSection() {
 
                         <div className="flex flex-col gap-4 text-medium font-light leading-relaxed text-lg">
                             <p>
-                                Peralta & Asociados es una firma jurídica de vanguardia con más de dos décadas brindando asesoría legal estratégica a empresas, instituciones y personas naturales en la República Dominicana. Operamos desde la nube, lo que nos permite estar presentes donde usted nos necesite.
+                                Nimbra Law es una firma jurídica de consultoría estratégica fundada en 2022, con más de una década de experiencia consolidada brindando asesoría legal de alto nivel a empresas, instituciones y personas naturales en la República Dominicana. Operamos desde la nube, eliminando fronteras geográficas para servir donde usted nos necesite.
                             </p>
                             <p>
-                                Nuestro equipo de abogados especializados combina el rigor académico con la experiencia práctica, ofreciendo soluciones jurídicas innovadoras adaptadas a la realidad del ordenamiento legal dominicano e internacional.
+                                Nuestro equipo combina el rigor académico con la experiencia práctica, ofreciendo soluciones jurídicas innovadoras adaptadas al ordenamiento legal dominicano e internacional.
                             </p>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ export default function FirmaSection() {
                                 <ShieldCheckIcon className="w-7 h-7" />
                                 <h4 className="text-xl text-dark font-heading group-hover:text-gold transition-colors duration-300">Confidencialidad</h4>
                             </div>
-                            <p className="text-sm text-medium leading-relaxed font-light">Sus asuntos se manejan con discreción absoluta y máxima reserva profesional.</p>
+                            <p className="text-md text-medium leading-relaxed font-light">Sus asuntos se manejan con discreción absoluta y máxima reserva profesional.</p>
                         </div>
                         
                         <div className="flex flex-col gap-3 group">
@@ -50,7 +50,7 @@ export default function FirmaSection() {
                                 <ScaleIcon className="w-7 h-7" />
                                 <h4 className="text-xl text-dark font-heading group-hover:text-gold transition-colors duration-300">Estrategia</h4>
                             </div>
-                            <p className="text-sm text-medium leading-relaxed font-light">Cada caso recibe un enfoque estratégico personalizado orientado a resultados.</p>
+                            <p className="text-md text-medium leading-relaxed font-light">Cada caso recibe un enfoque estratégico personalizado orientado a resultados.</p>
                         </div>
 
                         <div className="flex flex-col gap-3 group">
@@ -58,7 +58,7 @@ export default function FirmaSection() {
                                 <LightBulbIcon className="w-7 h-7" />
                                 <h4 className="text-xl text-dark font-heading group-hover:text-gold transition-colors duration-300">Innovación</h4>
                             </div>
-                            <p className="text-sm text-medium leading-relaxed font-light">Firmas digitales, expedientes en la nube y portal judicial en tiempo real.</p>
+                            <p className="text-md text-medium leading-relaxed font-light">Firmas digitales, expedientes en la nube y portal judicial en tiempo real.</p>
                         </div>
 
                         <div className="flex flex-col gap-3 group">
@@ -66,7 +66,7 @@ export default function FirmaSection() {
                                 <DocumentCheckIcon className="w-7 h-7" />
                                 <h4 className="text-xl text-dark font-heading group-hover:text-gold transition-colors duration-300">Excelencia</h4>
                             </div>
-                            <p className="text-sm text-medium leading-relaxed font-light">Estándares internacionales aplicados al marco jurídico dominicano.</p>
+                            <p className="text-md text-medium leading-relaxed font-light">Estándares internacionales aplicados al marco jurídico dominicano.</p>
                         </div>
                     </div>
                 </div>

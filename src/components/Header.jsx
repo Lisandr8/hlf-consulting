@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react';
 import { EnvelopeIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,31 +25,46 @@ export default function Header() {
   }, [isMobileMenuOpen]);
 
   const navLinks = [
-    { name: 'la firma', href: '#la-firma' },
-    { name: 'áreas', href: '#areas' },
-    { name: 'equipo', href: '#equipo' },
-    { name: 'consulta judicial', href: '#consulta-judicial' },
-    { name: 'publicaciones', href: '#publicaciones' }
+    { name: 'la firma', href: '/#la-firma' },
+    { name: 'áreas', href: '/#areas' },
+    { name: 'equipo', href: '/#equipo' },
+    { name: 'publicaciones', href: '/publicaciones' }
   ];
 
   return (
     <>
-      <header className={`sticky top-0 z-50 border-b uppercase tracking-wider flex justify-between items-center py-4 px-5 md:py-5 md:px-10 transition-all duration-300 ${isScrolled || isMobileMenuOpen ? 'bg-light border-medium shadow-sm' : 'bg-dark border-gold-light/30'}`}>
-        <div id="logo-title" className="z-50">
+      <header className={`fixed top-0 left-0 w-full z-50 border-b uppercase tracking-wider flex justify-between items-center py-4 px-5 md:py-5 md:px-10 transition-all duration-300 ${isScrolled || isMobileMenuOpen ? 'bg-light border-medium shadow-sm' : 'bg-transparent border-transparent'}`}>
+        <Link to="/" id="logo-title" className="z-50 block group" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
           <h1 className={`uppercase text-lg md:text-2xl transition-colors duration-300 ${isScrolled || isMobileMenuOpen ? 'text-dark' : 'text-light'}`}>nimbra <span className={`text-gold-light font-bold ${isScrolled || isMobileMenuOpen ? 'text-gold' : 'text-gold-light'}`}> law</span></h1>
-          <p className="text-[10px] md:text-xs text-gold-light">consultoria estrategica</p>
-        </div>
+          <p className="text-xs md:text-xs text-gold-light">consultoría estratégica</p>
+        </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden lg:flex gap-8 xl:gap-10 text-xs">
           {navLinks.map((item) => (
-            <a key={item.name} className={`transition-all duration-300 hover:underline underline-offset-4 ${isScrolled || isMobileMenuOpen ? 'text-dark hover:text-gold' : 'text-gold-light hover:text-light'}`} href={item.href}>{item.name}</a>
+            item.href.startsWith('/#') ? (
+              <a 
+                key={item.name} 
+                className={`transition-all duration-300 hover:underline underline-offset-4 ${isScrolled || isMobileMenuOpen ? 'text-dark hover:text-gold' : 'text-gold-light hover:text-light'}`} 
+                href={item.href}
+              >
+                {item.name}
+              </a>
+            ) : (
+              <Link 
+                key={item.name} 
+                className={`transition-all duration-300 hover:underline underline-offset-4 ${isScrolled || isMobileMenuOpen ? 'text-dark hover:text-gold' : 'text-gold-light hover:text-light'}`} 
+                to={item.href}
+              >
+                {item.name}
+              </Link>
+            )
           ))}
         </nav>
 
         {/* Desktop Button & Mobile Toggle */}
         <div className="flex items-center gap-4 z-50">
-          <a href="#contacto" className={`hidden md:flex items-center gap-2 uppercase tracking-wider text-xs px-4 py-2 rounded transition-all duration-300 ${isScrolled || isMobileMenuOpen ? 'bg-dark text-light hover:bg-gold' : 'bg-light text-dark hover:bg-gold-light hover:text-light'}`}>
+          <a href="/#contacto" className={`hidden md:flex items-center gap-2 uppercase tracking-wider text-xs px-4 py-2 rounded transition-all duration-300 ${isScrolled || isMobileMenuOpen ? 'bg-dark text-light hover:bg-gold' : 'bg-light text-dark hover:bg-gold-light hover:text-light'}`}>
             contactar
             <EnvelopeIcon className="w-4 h-4" />
           </a>
@@ -70,11 +87,29 @@ export default function Header() {
         
         <nav className="flex flex-col items-center gap-8 text-sm uppercase tracking-widest mt-16">
           {navLinks.map((item) => (
-            <a key={item.name} className="text-dark hover:text-gold transition-colors duration-300 cursor-pointer" href={item.href} onClick={() => setIsMobileMenuOpen(false)}>{item.name}</a>
+            item.href.startsWith('/#') ? (
+              <a 
+                key={item.name} 
+                className="text-dark hover:text-gold transition-colors duration-300 cursor-pointer" 
+                href={item.href} 
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                {item.name}
+              </a>
+            ) : (
+              <Link 
+                key={item.name} 
+                className="text-dark hover:text-gold transition-colors duration-300 cursor-pointer" 
+                to={item.href} 
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                {item.name}
+              </Link>
+            )
           ))}
         </nav>
 
-        <a href="#contacto" onClick={() => setIsMobileMenuOpen(false)} className="md:hidden mt-4 flex items-center gap-2 uppercase tracking-wider text-xs px-6 py-3 rounded bg-dark text-light hover:bg-gold transition-colors duration-300 cursor-pointer">
+        <a href="/#contacto" onClick={() => setIsMobileMenuOpen(false)} className="md:hidden mt-4 flex items-center gap-2 uppercase tracking-wider text-xs px-6 py-3 rounded bg-dark text-light hover:bg-gold transition-colors duration-300 cursor-pointer">
           contactar
           <EnvelopeIcon className="w-4 h-4" />
         </a>

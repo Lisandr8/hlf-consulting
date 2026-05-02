@@ -1,7 +1,9 @@
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
+import { Link } from 'react-router-dom';
 
 export default function PublicacionesSection() {
     const publicaciones = [
+
         {
             id: 1,
             tag: "Derecho Corporativo",
@@ -44,10 +46,10 @@ export default function PublicacionesSection() {
                         </h2>
                     </div>
                     
-                    <a href="#" className="uppercase text-xs tracking-widest font-semibold text-dark hover:text-gold flex items-center gap-3 transition-colors duration-300 pb-2">
+                    <Link to="/publicaciones" className="uppercase text-xs tracking-widest font-semibold text-dark hover:text-gold flex items-center gap-3 transition-colors duration-300 pb-2">
                         Ver todas
                         <ArrowRightIcon className="w-4 h-4" />
-                    </a>
+                    </Link>
                 </div>
 
                 {/* Grid */}

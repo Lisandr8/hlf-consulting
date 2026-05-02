@@ -2,15 +2,16 @@ import officeBanner from '../assets/office-banner.jpg';
 
 export default function Hero() {
     return (
-        <main className="relative w-full bg-dark flex flex-col items-center justify-between min-h-dvh pt-16 overflow-hidden">
+        <main className="relative w-full bg-dark flex flex-col items-center justify-between min-h-dvh overflow-hidden">
             {/* Background Image with low visibility */}
             <div 
-                className="absolute inset-0 z-0 bg-cover bg-center" 
+                className="absolute inset-0 z-0 bg-cover bg-center opacity-15 grayscale-[30%]" 
                 style={{ backgroundImage: `url(${officeBanner})` }}
             ></div>
             
-            {/* Gradient Overlay for premium feel and readability */}
-            <div className="absolute inset-0 z-1 bg-linear-to-b from-dark/80 via-dark/95 to-black"></div>
+            {/* Gradient Overlays for premium feel and header readability */}
+            <div className="absolute inset-0 z-1 bg-linear-to-b from-dark/90 via-dark/40 to-black"></div>
+            <div className="absolute top-0 left-0 w-full h-40 z-1 bg-linear-to-b from-black/80 to-transparent"></div>
 
             {/* ------------------ Hero Content ------------------ */}
             <div className="relative z-10 flex-1 flex flex-col gap-8 justify-center items-center text-center max-w-4xl w-full px-5 md:px-10 py-16">
@@ -35,7 +36,7 @@ export default function Hero() {
                     {/* <button className="uppercase tracking-widest text-xs px-10 py-4 rounded-sm transition-all duration-300 bg-gold text-light hover:bg-gold-light w-full sm:w-auto shadow-lg hover:shadow-gold/20 hover:-translate-y-1">
                         agendar consulta
                     </button> */}
-                    <a href="#areas" className="uppercase tracking-widest text-xs px-10 py-4 rounded-sm transition-all duration-300 bg-transparent border border-medium/50 text-light hover:bg-light hover:text-dark hover:border-light w-full sm:w-auto hover:-translate-y-1">
+                    <a href="/#areas" className="uppercase tracking-widest text-xs px-10 py-4 rounded-sm transition-all duration-300 bg-transparent border border-medium/50 text-light hover:bg-light hover:text-dark hover:border-light w-full sm:w-auto hover:-translate-y-1">
                         áreas de práctica
                     </a>
                 </div>

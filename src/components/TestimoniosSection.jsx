@@ -2,19 +2,18 @@ export default function TestimoniosSection() {
     const testimonios = [
         {
             id: 1,
-            body: "Peralta & Asociados manejó nuestra reestructuración corporativa con una precisión y discreción que superó todas nuestras expectativas. Son definitivamente nuestros abogados de cabecera.",
+            body: "Nimbra Law manejó nuestra reestructuración corporativa con precisión y discreción que superó todas nuestras expectativas. Son definitivamente nuestros asesores de cabecera.",
             author: "Jorge Martínez",
             company: "CEO — Grupo Empresarial Caribe"
         },
         {
             id: 2,
-            body: "En un proceso penal que me afectaba profundamente, el equipo de la firma demostró un manejo impecable de la defensa. Su estrategia marcó la diferencia en el resultado final.",
-            author: "Confidencial",
+            body: "En un proceso penal complejo, el equipo demostró un manejo impecable de la defensa. Su estrategia clara y comunicación transparente marcaron la diferencia en el resultado.",
             company: "Cliente — Defensa Penal"
         },
         {
             id: 3,
-            body: "El portal de consulta judicial es una herramienta increíble. Puedo ver el estado de mi caso desde mi oficina en cualquier momento. La tecnología al servicio del derecho.",
+            body: "El portal de consulta judicial es una herramienta increíble. Puedo ver el estado de mi caso desde mi oficina en cualquier momento. Tecnología al servicio del derecho.",
             author: "Ana Rodríguez",
             company: "Directora Legal — Inversiones del Norte"
         }

@@ -48,7 +48,7 @@ export default function AreasSection() {
                 <div className="flex flex-col gap-8 text-center max-w-3xl mx-auto">
                     <p className="uppercase text-sm tracking-widest text-gold flex items-center justify-center gap-4 font-semibold">
                         <span className="w-12 h-px bg-gold"></span>
-                        Nuestra Experiencia
+                        Áreas prácticas
                         <span className="w-12 h-px bg-gold"></span>
                     </p>
 
