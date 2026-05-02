@@ -1,4 +1,5 @@
 import { StarIcon } from '@heroicons/react/24/solid';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
     return (
@@ -55,9 +56,9 @@ export default function Footer() {
                 <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6 text-xs font-light text-gray-500">
                     <div>© {new Date().getFullYear()} 2026 - Nimbra Law. Todos los derechos reservados.</div>
                     <div className="flex flex-wrap justify-end gap-6">
-                        <a href="#" className="hover:text-gold transition-colors duration-300">Política de Privacidad</a>
-                        <a href="#" className="hover:text-gold transition-colors duration-300">Aviso Legal</a>
-                        <a href="#" className="hover:text-gold transition-colors duration-300">Términos de Uso</a>
+                        <Link to="/privacidad" className="hover:text-gold transition-colors duration-300">Política de Privacidad</Link>
+                        <Link to="/aviso-legal" className="hover:text-gold transition-colors duration-300">Aviso Legal</Link>
+                        <Link to="/terminos" className="hover:text-gold transition-colors duration-300">Términos de Uso</Link>
                     </div>
                 </div>
             </div>

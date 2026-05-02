@@ -9,8 +9,9 @@ import PublicacionesSection from "./components/PublicacionesSection";
 import TestimoniosSection from "./components/TestimoniosSection";
 import ContactoSection from "./components/ContactoSection";
 import Footer from "./components/Footer";
-import PublicacionesPage from "./components/PublicacionesPage";
+import PublicacionesPage from "./pages/PublicacionesPage";
 import ScrollToTop from "./components/ScrollToTop";
+import { PoliticaPrivacidad, AvisoLegal, TerminosUso } from "./pages/LegalPages";
 
 function LandingPage() {
   return (
@@ -35,6 +36,9 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/publicaciones" element={<PublicacionesPage />} />
+        <Route path="/privacidad" element={<PoliticaPrivacidad />} />
+        <Route path="/aviso-legal" element={<AvisoLegal />} />
+        <Route path="/terminos" element={<TerminosUso />} />
       </Routes>
       <Footer />
     </Router>
