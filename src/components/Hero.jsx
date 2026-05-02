@@ -23,10 +23,10 @@ export default function Hero() {
                     <span className="hidden sm:block w-12 h-px bg-gold-light"></span>
                 </p>
 
-                <h2 className="text-light text-5xl md:text-7xl font-medium leading-tight md:leading-tight">
+                <h1 className="text-light text-5xl md:text-7xl font-medium leading-tight md:leading-tight">
                     Excelencia legal.
                     <span className="text-gold block mt-2 font-serif italic">Resultados reales.</span>
-                </h2>
+                </h1>
 
                 <p className="text-medium font-light max-w-2xl leading-relaxed text-lg md:text-xl">
                     Consultoría jurídica estratégica que protege sus intereses con precisión, rigor e integridad. Operamos desde la nube para estar donde usted nos necesite.

@@ -35,14 +35,14 @@ export default function Header() {
     <>
       <header className={`fixed top-0 left-0 w-full z-50 border-b uppercase tracking-wider flex justify-between items-center py-4 px-5 md:py-5 md:px-10 transition-all duration-300 ${isScrolled || isMobileMenuOpen ? 'bg-light border-medium shadow-sm' : 'bg-transparent border-transparent'}`}>
         <Link to="/" id="logo-title" className="z-50 block group" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-          <h1 className={`uppercase text-lg md:text-2xl transition-colors duration-300 ${isScrolled || isMobileMenuOpen ? 'text-dark' : 'text-light'}`}>nimbra <span className={`text-gold-light font-bold ${isScrolled || isMobileMenuOpen ? 'text-gold' : 'text-gold-light'}`}> law</span></h1>
-          <p className="text-xs md:text-xs text-gold-light">consultoría estratégica</p>
+          
+          <p className="text-[10px] md:text-xs text-gold-light tracking-widest">consultoría estratégica</p>
         </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden lg:flex gap-8 xl:gap-10 text-xs">
           {navLinks.map((item) => (
-            item.href.startsWith('/#') ? (
+            it<h1 className={`uppercase text-lg md:text-2xl font-heading tracking-[0.2em] transition-colors duration-300 ${isScrolled || isMobileMenuOpen ? 'text-dark' : 'text-light'}`}>nimbra <span className={`text-gold-light font-bold ${isScrolled || isMobileMenuOpen ? 'text-gold' : 'text-gold-light'}`}> law</span></h1>em.href.startsWith('/#') ? (
               <a 
                 key={item.name} 
                 className={`transition-all duration-300 hover:underline underline-offset-4 ${isScrolled || isMobileMenuOpen ? 'text-dark hover:text-gold' : 'text-gold-light hover:text-light'}`} 

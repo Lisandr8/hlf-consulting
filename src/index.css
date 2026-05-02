@@ -1,31 +1,50 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 
+   Configuración de Fuentes Locales 
+*/
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('./assets/fonts/Raleway/Raleway-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
 
 @theme {
-    --color-light: #f5f5f5;
+    --color-light: #fdfdfd;
     --color-medium: #B0ADA8;
     --color-dark: #2C2C2C;
     --color-gold-light: #C4A882;
     --color-gold: #8B7355;
 
     --font-heading: "Raleway", sans-serif;
-    --font-body: "Poppins", sans-serif;
+    --font-body: "Inter", sans-serif;
 }
 
-html {
-    scroll-behavior: smooth;
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: "Inter", sans-serif;
+        @apply antialiased;
+    }
+
+    h1, h2, h3, h4, h5, h6, .font-heading {
+        font-family: "Raleway", sans-serif !important;
+    }
 }
 
-html,
-body {
-    font-family: var(--font-body);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: var(--font-heading);
+/* Forzado extra para el logo */
+.font-heading {
+    font-family: "Raleway", sans-serif !important;
 }
