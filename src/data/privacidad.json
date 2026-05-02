@@ -1,0 +1,86 @@
+{
+  "title": "Política de Privacidad",
+  "intro": "Nimbra Law, firma jurídica de consultoría estratégica domiciliada en la República Dominicana, es responsable del tratamiento de los datos personales recopilados a través de este sitio web. La firma se compromete a respetar la privacidad de los usuarios y a cumplir con todas las leyes y regulaciones aplicables en materia de protección de datos personales.",
+  "sections": [
+    {
+      "id": 1,
+      "title": "1. Datos Recopilados",
+      "text": "A través de este sitio web, podemos recopilar los siguientes tipos de datos personales:",
+      "items": [
+        "Información de contacto (nombre, correo electrónico, número telefónico) proporcionada voluntariamente a través de formularios de contacto o suscripción a servicios.",
+        "Datos de navegación y uso del sitio, incluyendo dirección IP, tipo de navegador, páginas visitadas, y duración de las sesiones.",
+        "Información técnica relacionada con el acceso al sitio, incluyendo cookies y tecnologías similares.",
+        "Información proporcionada en consultas legales o solicitudes de servicios, que puede incluir datos sensibles según el contexto específico de cada caso"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "2. Uso de los Datos",
+      "text": "Sus datos se utilizan exclusivamente para:",
+      "items": [
+        "Responder a consultas y solicitudes de información del usuario.",
+        "Facilitar la prestación de servicios legales solicitados.",
+        "Enviar información sobre publicaciones, análisis legal, y actualizaciones del sitio web, siempre con consentimiento previo del usuario.",
+        "Mejorar la experiencia del usuario en el sitio web mediante análisis de uso y optimización de contenido.",
+        "Cumplir con obligaciones legales y regulatorias aplicables.",
+        "Proteger los derechos e intereses de la firma y sus usuarios."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "3. Confidencialidad y Seguridad",
+      "text": "Nimbra Law se compromete a mantener la confidencialidad de todos los datos personales recopilados. La firma implementa medidas técnicas y organizacionales apropiadas para proteger los datos contra acceso no autorizado, alteración, divulgación, o destrucción. Sin embargo, debe tenerse en cuenta que ningún método de transmisión de datos por internet es completamente seguro, y la firma no puede garantizar seguridad absoluta.",
+      "extraText": "El acceso a información confidencial está restringido al personal autorizado de la firma que necesita acceder a dicha información para cumplir con sus funciones profesionales. Toda persona que tenga acceso a datos personales está sujeta a obligaciones de confidencialidad."
+    },
+    {
+      "id": 4,
+      "title": "4. Compartición de Datos con Terceros",
+      "text": "Nimbra Law no vende, alquila, ni comparte datos personales con terceros sin consentimiento explícito del usuario, salvo en los siguientes casi:",
+      "items": [
+        "Cuando sea necesario para cumplir con una obligación legal o regulatoria.",
+        "Cuando el usuario haya proporcionado su consentimiento expreso.",
+        "Cuando sea necesario para la prestación de servicios legales, incluyendo consulta con otros profesionales cuando sea apropiado.",
+        "En caso de venta, fusión, o transferencia de la firma, en cuyo caso los datos serían transferidos al nuevo responsable bajo las mismas condiciones de confidencialidad."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "5. Derechos del Usuario",
+      "text": "De conformidad con la ley, los usuarios tienen los siguientes derechos con respecto a sus datos personales:",
+      "items": [
+        "<strong>Derecho de acceso:</strong> Solicitar información sobre qué datos personales posee la firma.",
+        "<strong>Derecho de rectificación:</strong> Solicitar la corrección de datos inexactos o incompletos.",
+        "<strong>Derecho de cancelación:</strong> Solicitar la eliminación de datos personales cuando sea legalmente permitido.",
+        "<strong>Derecho de oposición:</strong> Objetar el procesamiento de datos para propósitos específicos.",
+        "<strong>Derecho de portabilidad:</strong> Solicitar una copia de los datos en formato estructurado y legible."
+      ],
+      "footer": "Para ejercer cualquiera de estos derechos, los usuarios deben contactar a la firma a través de la dirección de correo electrónico <span class=\"text-gold font-medium\">legal@nimbralaw.com</span>."
+    },
+    {
+      "id": 6,
+      "title": "6. Cookies y Tecnologías de Seguimiento",
+      "text": "Este sitio web utiliza cookies para mejorar la experiencia del usuario. Las cookies son pequeños archivos de texto que se almacenan en su navegador y permiten recopilar información sobre el uso del sitio. Utilizamos cookies para:",
+      "items": [
+        "Analizar el tráfico y las tendencias de uso del sitio.",
+        "Personalizar el contenido y la navegación.",
+        "Ofrecer funciones de redes sociales.",
+        "Mantener la seguridad del sitio."
+      ],
+      "footer": "Usted puede gestionar sus preferencias de cookies a través de la configuración de su navegador. Sin embargo, tenga en cuenta que la desactivación de cookies puede afectar la funcionalidad y la experiencia de usuario del sitio web."
+    },
+    {
+      "id": 7,
+      "title": "7. Cambios a esta Política",
+      "text": "Nimbra Law se reserva el derecho de modificar esta Política de Privacidad en cualquier momento. Los cambios serán comunicados a través de este sitio web, y el uso continuado del sitio después de dichas modificaciones constituirá aceptación de los cambios."
+    },
+    {
+      "id": 8,
+      "title": "6. Contacto",
+      "text": "Para cualquier pregunta, preocupación, o solicitud relacionada con esta Política de Privacidad, los usuarios pueden contactar a Nimbra Law a través de:",
+      "items": [
+        "<strong>Correo Electrónico:</strong> legal@nimbralaw.com",
+        "<strong>Fecha de Última Actualización:</strong> Abril de 2026"
+      ]
+    }
+  ]
+}

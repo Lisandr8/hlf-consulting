@@ -1,0 +1,16 @@
+{
+  "title": "Términos de Uso",
+  "intro": "Al acceder y utilizar este portal, usted acepta cumplir con los siguientes términos y condiciones de uso.",
+  "sections": [
+    {
+      "id": 1,
+      "title": "Uso del Portal y Servicios",
+      "text": "El usuario se compromete a hacer un uso lícito y profesional de las herramientas de consulta judicial y servicios de contacto. Queda prohibido el uso de técnicas de automatización (scraping, bots) para la extracción de datos sin consentimiento previo."
+    },
+    {
+      "id": 2,
+      "title": "Limitación de Garantías",
+      "text": "Si bien nos esforzamos por mantener la información actualizada, Nimbra Law no garantiza la infalibilidad o disponibilidad técnica ininterrumpida de los servicios de consulta externos sincronizados en nuestro sitio."
+    }
+  ]
+}
