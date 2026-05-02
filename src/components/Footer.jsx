@@ -13,7 +13,7 @@ export default function Footer() {
                             <span className="text-sm uppercase tracking-widest text-gold font-semibold mt-1">Abogados & Consultores</span>
                         </div>
                         <p className="font-light text-gray-400 leading-relaxed text-sm md:text-base">
-                            Firma jurídica de élite comprometida con la excelencia legal y la defensa implacable de sus intereses en la República Dominicana y el ámbito internacional.
+                            Firma jurídica de consultoría estratégica comprometida con la excelencia legal y la defensa de sus intereses en la República Dominicana y el ámbito internacional.
                         </p>
                         
                         {/* API Badge */}
