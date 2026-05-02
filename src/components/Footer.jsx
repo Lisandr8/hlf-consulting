@@ -8,9 +8,9 @@ export default function Footer() {
                     
                     {/* Brand Section */}
                     <div className="lg:col-span-5 flex flex-col gap-6 pr-0 lg:pr-12">
-                        <div className="flex flex-col">
-                            <span className="text-3xl font-serif text-white tracking-wide">Peralta & Asociados</span>
-                            <span className="text-sm uppercase tracking-widest text-gold font-semibold mt-1">Abogados & Consultores</span>
+                        <div className="flex flex-col uppercase">
+                            <span className="text-3xl font-serif text-white tracking-wide">Nimbra Law</span>
+                            <span className="text-sm tracking-widest text-gold font-semibold mt-1">Consultoría Estratégica</span>
                         </div>
                         <p className="font-light text-gray-400 leading-relaxed text-sm md:text-base">
                             Firma jurídica de consultoría estratégica comprometida con la excelencia legal y la defensa de sus intereses en la República Dominicana y el ámbito internacional.
@@ -53,8 +53,8 @@ export default function Footer() {
 
                 {/* Bottom Bar */}
                 <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6 text-xs font-light text-gray-500">
-                    <div>© {new Date().getFullYear()} Peralta & Asociados. Todos los derechos reservados.</div>
-                    <div className="flex flex-wrap justify-center gap-6">
+                    <div>© {new Date().getFullYear()} 2026 - Nimbra Law. Todos los derechos reservados.</div>
+                    <div className="flex flex-wrap justify-end gap-6">
                         <a href="#" className="hover:text-gold transition-colors duration-300">Política de Privacidad</a>
                         <a href="#" className="hover:text-gold transition-colors duration-300">Aviso Legal</a>
                         <a href="#" className="hover:text-gold transition-colors duration-300">Términos de Uso</a>
